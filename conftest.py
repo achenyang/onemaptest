@@ -8,7 +8,7 @@ def exe_first():
     print("this is first exe")
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="class")
 def load_url_auto():
     clear_yaml()
     print('前置调用')
@@ -26,4 +26,7 @@ def load_url_editor():
     print('前置调用')
     url = "http://fastmap.navinfo.com/omtest/oiie-feature-editor/editor/common/run"
     write_yaml({'url': url})
-
+    # clear_yaml()
+    print('前置调用')
+    url = "http://fastmap.navinfo.com/omtest/oiie-feature-editor/editor/common/run"
+    write_yaml({'url': url})
