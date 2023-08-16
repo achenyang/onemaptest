@@ -8,7 +8,6 @@ from common.yaml_test import write_yaml, read_yaml
 
 class TestOneMap:
 
-
     @pytest.mark.sm
     def test_run_rd_link(self, load_url_editor):
         # urll = 'http://fastmap.navinfo.com/omtest/oiie-feature-editor/editor/common/run'
