@@ -1,0 +1,10 @@
+-
+  name: 编辑平台接口
+  requests:
+    url: http://fastmap.navinfo.com/omtest/oiie-feature-editor/editor/common/run
+    method: 'post'
+    data:
+      parameter: '{"userId":"chenyang","workOrderId":"8ea571a5-d63b-4e1c-a77f-dd7a66ea58c1","command":"CREATE","type":"RDLINK","data":[{"objName":"RDLINK","objData":{"geometry":"LINESTRING Z (114.04897567 22.73082882 100, 114.04935199 22.73084173 100)","zSource":1,"zCollect":5,"dataClass":0,"linkSource":1,"objStatus":"INSERT"}}],"opName":"","opConfig":{"catchLinks":[],"catchNodes":[],"logId":"837cdf25-cb8a-4b09-befb-04526f4acbb4"}}'
+      reqContext: '{"bizType": "omGdb", "uid": "chenyang", "catalog": "D"}'
+      reqId: 'chenyang_293d84a4 - 2bae - 49bd - b4e4 - a09e4ddd96d0'
+      token: '2daa0584 - 04a8 - 4582 - 96c5 - 39cfd78576e8'

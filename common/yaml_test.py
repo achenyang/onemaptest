@@ -17,3 +17,9 @@ def write_yaml(data):
 def clear_yaml():
     with open(os.getcwd()+'/onemap.yaml', mode='w', encoding='utf-8') as c:
         c.truncate()
+
+
+def read_testcase(yaml_name):
+    with open(os.getcwd()+'/test_onemap/'+yaml_name, mode='r', encoding='utf-8') as f:
+        re = yaml.load(stream=f, Loader=yaml.FullLoader)
+        return re
