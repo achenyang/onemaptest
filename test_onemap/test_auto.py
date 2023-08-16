@@ -19,7 +19,4 @@ class TestAuto:
             'token': '2daa0584 - 04a8 - 4582 - 96c5 - 39cfd78576e8'
         }
         res = requests.request(method="post", url=url, data=data)
-        write_yaml({'link_pid': 12345678})
-        redd = read_yaml('link_pid')
         print(res.text)
-        print(redd)
