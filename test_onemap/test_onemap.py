@@ -45,6 +45,8 @@ class TestOneMap:
         # print(TestOneMap.link_pid+' '+TestOneMap.row_id)
         # print(res.json()["data"]["result"]["opResult"][1]["objData"]["linkPid"])
         # print(res.json())
+        status = res.status_code
+        assert status == int(args_name['validate'])
         print('=========================================================')
 
     @pytest.mark.sm
@@ -66,6 +68,8 @@ class TestOneMap:
         }
         res = requests.request(method="post", url=url, data=data)
         print(res.text)
+        status = res.status_code
+        assert status == int(args_n['validate'])
         TestOneMap.num_d += 1
 
 

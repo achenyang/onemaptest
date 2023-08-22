@@ -8,6 +8,7 @@
       reqContext: '{"bizType": "omGdb", "uid": "chenyang", "catalog": "D"}'
       reqId: 'chenyang_293d84a4 - 2bae - 49bd - b4e4 - a09e4ddd96d0'
       token: '2daa0584 - 04a8 - 4582 - 96c5 - 39cfd78576e8'
+  validate: '200'
 -
   name: 编辑平台接口
   requests:
@@ -18,3 +19,4 @@
       reqContext: '{"bizType": "omGdb", "uid": "chenyang", "catalog": "D"}'
       reqId: 'chenyang_293d84a4 - 2bae - 49bd - b4e4 - a09e4ddd96d0'
       token: '2daa0584 - 04a8 - 4582 - 96c5 - 39cfd78576e8'
+  validate: '200'
